@@ -13,6 +13,7 @@ export default function Card({ result }) {
           alt="pic"
           height={300}
           width={500}
+          style={{maxWidth:'100%', height:'120px'}}
           className="sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300"
         />
         <div className="p-2">
